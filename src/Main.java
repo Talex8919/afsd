@@ -6,7 +6,7 @@ public class Main {
                                  // .clone(); method
         System.out.println(person != (person1)); /// then  print out person != (person1) the result  is true  because   it  fullly copy  with current  id
         System.out.println((person.clone() .getClass()==person1.getClass()) ); // equalise original and  clone
-        System.out.println(person.equals (person1)); // print out the result of if it original  and
+        System.out.println(person.equals (person1)); // print out if  original  and clone equal
 
     }
 }
